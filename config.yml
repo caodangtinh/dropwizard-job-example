@@ -1,0 +1,8 @@
+logging:
+  level: INFO
+  loggers:
+    com.tinhcao.dropwizard: DEBUG
+jobs:
+  cronJob: 0 45 15 ? * THU
+  everyJob: 5s
+  deplayStart: 10s
